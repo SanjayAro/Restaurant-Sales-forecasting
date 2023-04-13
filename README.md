@@ -20,10 +20,11 @@ In this section, a graph was plotted to visualize the overall monthly sales
 
 <table>
   <tr>
-    <td><img src="sales.png" width="400" height="300"></td>
-    <td><img src="sales.png" width="400" height="300"></td>
+    <td><img src="sales.png" width="600" height="450"></td>
+    <td><img src="sales.png" width="600" height="450"></td>
   </tr>
 </table>
+
 
 ![Flowchart](flowchart.jpg)
 
