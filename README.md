@@ -35,42 +35,63 @@ In this section, a graph was plotted to visualize the overall monthly sales
   </tr>
 </table>
 
-![Flowchart](flowchart.jpg)
 
 ### SARIMA
-![Flowchart](flowchart.jpg)
+
+<table>
+  <tr>
+    <td>
+      <figure>
+        <img src="2019 Actual Sales(ARIMA).png" width="600" height="450">
+        <figcaption>2019 Actual Sales</figcaption>
+      </figure>
+    </td>
+    <td>
+      <figure>
+        <img src="2019 Sales Forecast(SARIMA).png" width="600" height="450">
+        <figcaption>2019 Sales Forecast</figcaption>
+      </figure>
+    </td>
+  </tr>
+</table>
+
 
 ## Neural Networks
+
+### Trained Everyday sales
+
 In the next step, a neural network was built to forecast sales. The model was first trained on everyday sales, and then on monthly sales by aggregating the data.
-![Flowchart](flowchart.jpg)
+
+![Flowchart](Neural networks Trained everyday sales.png)
+
+### Trained Every Month sales
+
+The model was first trained on monthly sales by aggregating the data.
+
+![Flowchart](Neural networks Trained everymonth sales.png)
 
 
-## Multivariate Time Series Analysis
-To improve the accuracy of the forecast, the weather data was merged with the sales data. Various machine learning models were then used to predict sales. Linear Regression, Decision Tree Regression, Random Forest Regression, SVR, Gradient Boosting Regression, and Lasso Regression models were all tested. However, the results were not satisfactory.
+## Multivariate Time Series Analysis(VAR model)
+To improve the accuracy of the forecast, the weather data was merged with the sales data. 
 
-![Flowchart](flowchart.jpg)
-
-
-## Data Preprocessing
-The data preprocessing section describes how the sales and weather data was merged.
-
-![Flowchart](flowchart.jpg)
+![Flowchart](VAR model.png)
 
 ## Machine Learning Models
-This section describes the various machine learning models that were used for multivariate time series analysis, and the results obtained.
+Various machine learning models were then used to predict sales. Linear Regression, Decision Tree Regression, Random Forest Regression, SVR, Gradient Boosting Regression, and Lasso Regression models were all tested. However, the results were not satisfactory.
 
-![Flowchart](flowchart.jpg)
+| Column 1 | Column 2 |
+| --------| --------|
+| ![Image 1](Linear Regression.png) | ![Image 2](Decision Tree Regressor.png) |
+| ![Image 3](RandomForestRegressor.png) | ![Image 4](SVR.png) |
+| ![Image 5](GradientBoostingRegressor.png) | ![Image 6](Lasso Regression.png |
 
-### Feature Importance
-This section details the process of selecting only the important features for the final model.
 
-![Flowchart](flowchart.jpg)
 
 
 ## Stacked Classifier Model
-Finally, a  using only the important featuresa a model was built using a stacked classifier with Decision Tree Regression, Random Forest Regression, and Gradient Boosting Regression. This model produced a low MSE score, indicating its success in predicting sales.
+Finally using only the important featuresa a model was built using a stacked classifier with Decision Tree Regression, Random Forest Regression, and Gradient Boosting Regression. This model produced a low MSE score, indicating its success in predicting sales.
 
-![Flowchart](flowchart.jpg)
+![Flowchart](Stacked classifier.png)
 
 
 ## Conclusion
