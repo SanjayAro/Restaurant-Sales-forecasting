@@ -20,11 +20,20 @@ In this section, a graph was plotted to visualize the overall monthly sales
 
 <table>
   <tr>
-    <td><img src="sales.png" width="600" height="450"></td>
-    <td><img src="sales.png" width="600" height="450"></td>
+    <td>
+      <figure>
+        <img src="sales.png" width="600" height="450">
+        <figcaption>Sales in Q1 2021</figcaption>
+      </figure>
+    </td>
+    <td>
+      <figure>
+        <img src="sales.png" width="600" height="450">
+        <figcaption>Sales in Q2 2021</figcaption>
+      </figure>
+    </td>
   </tr>
 </table>
-
 
 ![Flowchart](flowchart.jpg)
 
