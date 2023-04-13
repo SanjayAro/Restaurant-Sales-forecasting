@@ -91,6 +91,7 @@ Various machine learning models were then used to predict sales. Linear Regressi
 
 ## Stacked Classifier Model
 Finally using only the important featuresa a model was built using a stacked classifier with Decision Tree Regression, Random Forest Regression, and Gradient Boosting Regression. This model produced a low MSE score, indicating its success in predicting sales.
+
 <img src="Stacked classifier.png" alt="Image Description">
 
 
