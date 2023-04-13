@@ -12,11 +12,10 @@ Which means the sales that took place inside the restaurant and outside the rest
 ## Time Series Visualization
 The time series visualization section details the process of using ARIMA and SARIMA models to predict sales. The models were trained on the 2017 and 2018 data, and the aim was to predict sales for 2019. The predicted sales and actual sales were then plotted for both models.
 ### Sales Graph
-In this section, a graph was plotted to visualize the overall monthly sales
-.
+In this section, a graph was plotted to visualize the overall monthly sales.
+
 <img src="Dataset Visualozation.png" alt="Image Description">
 
-![Flowchart](Dataset Visualozation.png)
 
 ### ARIMA
 
@@ -64,19 +63,19 @@ In this section, a graph was plotted to visualize the overall monthly sales
 
 In the next step, a neural network was built to forecast sales. The model was first trained on everyday sales, and then on monthly sales by aggregating the data.
 
-![Fslowchart](Neural networks Trained everyday sales.png)
+<img src="Neural networks Trained everyday sales.png" alt="Image Description">
 
 ### Trained Every Month sales
 
 The model was first trained on monthly sales by aggregating the data.
 
-![Flowchart](Neural networks Trained everymonth sales.png)
+<img src="Neural networks Trained everymonth sales.png" alt="Image Description">
 
 
 ## Multivariate Time Series Analysis(VAR model)
 To improve the accuracy of the forecast, the weather data was merged with the sales data. 
+<img src="VAR model.png" alt="Image Description">
 
-![Flowchart](VAR model.png)
 
 ## Machine Learning Models
 Various machine learning models were then used to predict sales. Linear Regression, Decision Tree Regression, Random Forest Regression, SVR, Gradient Boosting Regression, and Lasso Regression models were all tested. However, the results were not satisfactory.
@@ -92,8 +91,8 @@ Various machine learning models were then used to predict sales. Linear Regressi
 
 ## Stacked Classifier Model
 Finally using only the important featuresa a model was built using a stacked classifier with Decision Tree Regression, Random Forest Regression, and Gradient Boosting Regression. This model produced a low MSE score, indicating its success in predicting sales.
+<img src="Stacked classifier.png" alt="Image Description">
 
-![Flowchart](Stacked classifier.png)
 
 
 ## Conclusion
