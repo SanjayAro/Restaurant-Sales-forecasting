@@ -22,14 +22,14 @@ In this section, a graph was plotted to visualize the overall monthly sales
   <tr>
     <td>
       <figure>
-        <img src="sales.png" width="600" height="450">
-        <figcaption>Sales in Q1 2021</figcaption>
+        <img src="2019 Actual Sales(ARIMA).png" width="600" height="450">
+        <figcaption>2019 Actual Sales</figcaption>
       </figure>
     </td>
     <td>
       <figure>
-        <img src="sales.png" width="600" height="450">
-        <figcaption>Sales in Q2 2021</figcaption>
+        <img src="2019 Sales Forecast(ARIMA).png" width="600" height="450">
+        <figcaption>2019 Sales Forecast</figcaption>
       </figure>
     </td>
   </tr>
