@@ -14,7 +14,7 @@ The time series visualization section details the process of using ARIMA and SAR
 ### Sales Graph
 In this section, a graph was plotted to visualize the overall monthly sales
 .
-![Flowchart](Dataset Visualozation.png)
+![Flowchart](DatasetVisualozation.png)
 
 ### ARIMA
 
