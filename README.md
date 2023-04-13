@@ -62,7 +62,7 @@ In this section, a graph was plotted to visualize the overall monthly sales
 
 In the next step, a neural network was built to forecast sales. The model was first trained on everyday sales, and then on monthly sales by aggregating the data.
 
-![Flowchart](Neural networks Trained everyday sales.png)
+![Fslowchart](Neural networks Trained everyday sales.png)
 
 ### Trained Every Month sales
 
