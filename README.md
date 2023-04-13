@@ -82,10 +82,9 @@ Various machine learning models were then used to predict sales. Linear Regressi
 
 | Column 1 | Column 2 |
 | --------| --------|
-| ![Image 1](Linear Regression.png) | ![Image 2](Decision Tree Regressor.png) |
+| <img src="Linear Regression.png" alt="Image Description"> | ![Image 2](Decision Tree Regressor.png) |
 | ![Image 3](RandomForestRegressor.png) | ![Image 4](SVR.png) |
 | ![Image 5](GradientBoostingRegressor.png) | ![Image 6](Lasso Regression.png) |
-
 
 
 
