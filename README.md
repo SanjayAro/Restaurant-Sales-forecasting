@@ -5,17 +5,26 @@ This project aims to forecast the sales of a restaurant using various machine le
 
 ## Data Visualization
 The project started with visualizing the inside and outside sales graph.
+Which means the sales that took place inside the restaurant and outside the restaurant like small snacks items and sweets.
+
 ![Flowchart](sales.png)
-
-
-## Sales Graph
-In this section, a graph was plotted to visualize the inside and outside sales of the restaurant.
-![Flowchart](flowchart.jpg)
 
 ## Time Series Visualization
 The time series visualization section details the process of using ARIMA and SARIMA models to predict sales. The models were trained on the 2017 and 2018 data, and the aim was to predict sales for 2019. The predicted sales and actual sales were then plotted for both models.
+### Sales Graph
+In this section, a graph was plotted to visualize the overall monthly sales
+.
+![Flowchart](Dataset Visualozation.png)
 
 ### ARIMA
+
+<table>
+  <tr>
+    <td><img src="sales.png" width="400" height="300"></td>
+    <td><img src="sales.png" width="400" height="300"></td>
+  </tr>
+</table>
+
 ![Flowchart](flowchart.jpg)
 
 ### SARIMA
